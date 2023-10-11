@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootBackendApirest3Application {
 	//private static final Logger logger = LogManager.getLogger(clasemain.class);
 	public static void main(String[] args) {
-		//logger.info(SpringApplication.run(SpringBootBackendApirest3Application.class, args)+ "--------------------------------xxxxxxxxxxx");
+		SpringApplication.run(SpringBootBackendApirest3Application.class, args);
 	}
 
 }
