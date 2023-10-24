@@ -122,6 +122,9 @@ public class TiendaRestController {
 		  
 			
 		}
+
+
+
 		
 		@DeleteMapping("/tiendas/{id}")
 		@ResponseStatus(HttpStatus.NO_CONTENT)

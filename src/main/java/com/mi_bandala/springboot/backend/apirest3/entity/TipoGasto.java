@@ -5,8 +5,8 @@ import java.io.Serializable;
 
 
 @Entity
-@Table(name = "tipoGasto")
-public class tipoGasto implements Serializable {
+@Table(name = "tipo_Gasto")
+public class TipoGasto implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -14,12 +14,12 @@ public class tipoGasto implements Serializable {
     public Long	idtipoGasto;
     private String descripcion;
 
-    public tipoGasto(Long idtipoGasto, String descripcion) {
+    public TipoGasto(Long idtipoGasto, String descripcion) {
         this.idtipoGasto = idtipoGasto;
         this.descripcion = descripcion;
     }
 
-    public tipoGasto() {
+    public TipoGasto() {
     }
 
     public Long getIdtipoGasto() {
