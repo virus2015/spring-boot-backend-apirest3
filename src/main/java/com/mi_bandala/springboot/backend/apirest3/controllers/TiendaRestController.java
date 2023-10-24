@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mi_bandala.springboot.backend.apirest3.entity.Tiendas;
 import com.mi_bandala.springboot.backend.apirest3.services.ITiendaService;
 
-
+//http://localhost:8090/api/tiendas
 @CrossOrigin(origins={"http://localhost:4200"})
 @RestController
 @RequestMapping("/api")
